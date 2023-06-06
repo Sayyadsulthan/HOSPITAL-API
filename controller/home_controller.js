@@ -7,7 +7,7 @@ const Report = require('../models/report');
 module.exports.index = async function(req, res){
     try{
         return res.status(200).json({
-            message:"Wlcome to Doctors API If You are Doctor You can follow this process if You are Already registegerd Go to :Login_URL ",
+            message:"Welcome to Doctors API If You are Doctor You can follow this process if You are Already registegerd Go to :Login_URL ",
             Note: "!! The method need to be POST while Register and Login !!",
             Register_URL: '/doctors/register',
             Login_URL: '/doctors/login'
